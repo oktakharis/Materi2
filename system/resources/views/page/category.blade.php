@@ -415,14 +415,13 @@
 	</div>
 
 	<!-- Start related-product Area -->
-	<section class="related-product-area section_gap">
+	<section class="related-product-area section_gap_bottom">
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-6 text-center">
 					<div class="section-title">
-						<h1>Deals of the Week</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-							magna aliqua.</p>
+						<h1>Terlaris Minggu Ini</h1>
+						<p>Paling banyak dibeli dalam 1 minggu ini</p>
 					</div>
 				</div>
 			</div>
@@ -431,108 +430,108 @@
 					<div class="row">
 						<div class="col-lg-4 col-md-4 col-sm-6 mb-20">
 							<div class="single-related-product d-flex">
-								<a href="#"><img src="img/r1.jpg" alt=""></a>
+								<a href="#"><img src="img/game/game/g1.jpg" alt=""></a>
 								<div class="desc">
-									<a href="#" class="title">Black lace Heels</a>
+									<a href="#" class="title">Sid Meier's Civilization VI</a>
 									<div class="price">
-										<h6>$189.00</h6>
-										<h6 class="l-through">$210.00</h6>
+										<h6>Rp. 150.000</h6>
+										<h6 class="l-through">Rp. 600.000</h6>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 mb-20">
 							<div class="single-related-product d-flex">
-								<a href="#"><img src="img/r2.jpg" alt=""></a>
+								<a href="#"><img src="img/game/game/g2.jpg" alt=""></a>
 								<div class="desc">
-									<a href="#" class="title">Black lace Heels</a>
+									<a href="#" class="title">Cyberpunk 2077</a>
 									<div class="price">
-										<h6>$189.00</h6>
-										<h6 class="l-through">$210.00</h6>
+										<h6>Rp. 699.999</h6>
+										<h6 class="l-through">Rp. 1.000.0000</h6>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 mb-20">
 							<div class="single-related-product d-flex">
-								<a href="#"><img src="img/r3.jpg" alt=""></a>
+								<a href="#"><img src="img/game/game/g3.jpg" alt=""></a>
 								<div class="desc">
-									<a href="#" class="title">Black lace Heels</a>
+									<a href="#" class="title">Doraemon Story of Season</a>
 									<div class="price">
-										<h6>$189.00</h6>
-										<h6 class="l-through">$210.00</h6>
+										<h6>Rp. 339.000</h6>
+										<h6 class="l-through">Rp. 559.000</h6>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 mb-20">
 							<div class="single-related-product d-flex">
-								<a href="#"><img src="img/r5.jpg" alt=""></a>
+								<a href="#"><img src="img/game/game/g4.jpg" alt=""></a>
 								<div class="desc">
-									<a href="#" class="title">Black lace Heels</a>
+									<a href="#" class="title">Fall Guys Ultimate Knockout</a>
 									<div class="price">
-										<h6>$189.00</h6>
-										<h6 class="l-through">$210.00</h6>
+										<h6>Rp. 108.999</h6>
+										<h6 class="l-through">Rp. 300.000</h6>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 mb-20">
 							<div class="single-related-product d-flex">
-								<a href="#"><img src="img/r6.jpg" alt=""></a>
+								<a href="#"><img src="img/game/game/g5.jpg" alt=""></a>
 								<div class="desc">
-									<a href="#" class="title">Black lace Heels</a>
+									<a href="#" class="title">Monster Hunter World Iceborne</a>
 									<div class="price">
-										<h6>$189.00</h6>
-										<h6 class="l-through">$210.00</h6>
+										<h6>Rp. 445.999</h6>
+										<h6 class="l-through">Rp. 550.000</h6>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6 mb-20">
 							<div class="single-related-product d-flex">
-								<a href="#"><img src="img/r7.jpg" alt=""></a>
+								<a href="#"><img src="img/game/game/g6.jpg" alt=""></a>
 								<div class="desc">
-									<a href="#" class="title">Black lace Heels</a>
+									<a href="#" class="title">Monster Hunter Wolrd</a>
 									<div class="price">
-										<h6>$189.00</h6>
-										<h6 class="l-through">$210.00</h6>
+										<h6>Rp. 334.999</h6>
+										<h6 class="l-through">Rp. 599.999</h6>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-related-product d-flex">
-								<a href="#"><img src="img/r9.jpg" alt=""></a>
+								<a href="#"><img src="img/game/game/g7.png" alt=""></a>
 								<div class="desc">
-									<a href="#" class="title">Black lace Heels</a>
+									<a href="#" class="title">Story Of Season Mineral Town</a>
 									<div class="price">
-										<h6>$189.00</h6>
-										<h6 class="l-through">$210.00</h6>
+										<h6>Rp. 146.999</h6>
+										<h6 class="l-through">Rp. 399.000</h6>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-related-product d-flex">
-								<a href="#"><img src="img/r10.jpg" alt=""></a>
+								<a href="#"><img src="img/game/game/g8.jpg" alt=""></a>
 								<div class="desc">
-									<a href="#" class="title">Black lace Heels</a>
+									<a href="#" class="title">Persona 4 Golden</a>
 									<div class="price">
-										<h6>$189.00</h6>
-										<h6 class="l-through">$210.00</h6>
+										<h6>Rp. 259.000</h6>
+										<h6 class="l-through">Rp. 400.000</h6>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-6">
 							<div class="single-related-product d-flex">
-								<a href="#"><img src="img/r11.jpg" alt=""></a>
+								<a href="#"><img src="img/game/game/g9.jpg" alt=""></a>
 								<div class="desc">
-									<a href="#" class="title">Black lace Heels</a>
+									<a href="#" class="title">Red Dead Redemtion 2</a>
 									<div class="price">
-										<h6>$189.00</h6>
-										<h6 class="l-through">$210.00</h6>
+										<h6>Rp. 640.000</h6>
+										<h6 class="l-through">Rp. 810.000</h6>
 									</div>
 								</div>
 							</div>
@@ -542,7 +541,7 @@
 				<div class="col-lg-3">
 					<div class="ctg-right">
 						<a href="#" target="_blank">
-							<img class="img-fluid d-block mx-auto" src="img/category/c5.jpg" alt="">
+							<img class="img-fluid d-block mx-auto" src="img/game/category/summersale.jpg" alt="">
 						</a>
 					</div>
 				</div>
