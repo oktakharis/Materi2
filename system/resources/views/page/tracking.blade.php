@@ -1,6 +1,10 @@
 @extends('layouts.frontend.masterindex')
 @section('content')
+
+
+
     <p>
+
     <!--================Tracking Box Area =================-->
     <section class="tracking_box_area section_gap">
         <div class="container">

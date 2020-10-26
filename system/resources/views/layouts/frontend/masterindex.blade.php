@@ -92,7 +92,12 @@
 		</div>
 	</header>
 	<!-- End Header Area -->
+	<p>
+
 	@yield('content')
+
+	<p>
+
 	<!-- start footer Area -->
 	<footer class="footer-area section_gap">
 		<div class="container">
