@@ -5,7 +5,7 @@
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="shortcut icon" href="img/fav.png">
+	<link rel="shortcut icon" href="img/bangsat2.png">
 	<!-- Author Meta -->
 	<meta name="author" content="CodePixar">
 	<!-- Meta Description -->
@@ -92,11 +92,9 @@
 		</div>
 	</header>
 	<!-- End Header Area -->
-	<p>
 
 	@yield('content')
 
-	<p>
 
 	<!-- start footer Area -->
 	<footer class="footer-area section_gap">

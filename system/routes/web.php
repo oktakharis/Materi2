@@ -65,4 +65,22 @@ Route::get('tracking', function () {
     return view('page.tracking');
 });
 
+Route::get('adminindex', function () {
+    return view('admin.adminindex');
+});
 
+Route::get('user-profile', function () {
+    return view('admin.userprofil');
+});
+
+Route::get('sign-in', function () {
+    return view('admin.sign-in');
+});
+
+Route::get('sign-up', function () {
+    return view('admin.sign-up');
+});
+
+Route::get('games', function () {
+    return view('admin.games');
+});
