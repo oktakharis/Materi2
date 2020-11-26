@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\GameController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\AuthController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -65,22 +70,20 @@ Route::get('tracking', function () {
     return view('page.tracking');
 });
 
-Route::get('adminindex', function () {
-    return view('admin.adminindex');
+Route::get('adminindex', [HomeController::class, 'showBeranda']);
+
+Route::get('user-profile', [HomeController::class, 'showUser']);
+
+Route::get('sign-up', [HomeController::class, 'showRegistrasi']);
+
+Route::prefix('admin')->middleware('auth')->group(function(){
+    Route::post('games/filter', [GameController::class, 'filter']);
+    Route::resource('games', GameController::class);
+    Route::resource('user', UserController::class);
 });
 
-Route::get('user-profile', function () {
-    return view('admin.userprofil');
-});
 
-Route::get('sign-in', function () {
-    return view('admin.sign-in');
-});
+Route::get('login', [AuthController::class, 'showLogin'])->name('login');
+Route::post('login', [AuthController::class, 'loginProcess']);
+Route::get('logout', [AuthController::class, 'logout']);
 
-Route::get('sign-up', function () {
-    return view('admin.sign-up');
-});
-
-Route::get('games', function () {
-    return view('admin.games');
-});

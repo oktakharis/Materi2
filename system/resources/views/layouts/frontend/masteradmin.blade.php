@@ -19,6 +19,7 @@
   <link href="assets/plugins/ladda/ladda.min.css" rel="stylesheet" />
   <link href="assets/plugins/select2/css/select2.min.css" rel="stylesheet" />
   <link href="assets/plugins/daterangepicker/daterangepicker.css" rel="stylesheet" />
+  <link href="assets/plugins/fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet">
 
   <!-- SLEEK CSS -->
   <link id="sleek-css" rel="stylesheet" href="assets/css/sleek.css" />
@@ -101,7 +102,7 @@
                         
                           
                             <li  class="active" >
-                              <a class="sidenav-item-link" href="index">
+                              <a class="sidenav-item-link" href="adminindex">
                                 <span class="nav-text">Ecommerce</span>
                                 
                               </a>
@@ -135,7 +136,7 @@
                             <div class="sub-menu">
                               
                               <li >
-                                <a href="games">Games</a>
+                                <a href="{{url('admin/games')}}">Games</a>
                               </li>
                               
                             </div>
@@ -152,14 +153,14 @@
                     <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#documentation"
                       aria-expanded="false" aria-controls="documentation">
                       <i class="mdi mdi-book-open-page-variant"></i>
-                      <span class="nav-text">promo</span> <b class="caret"></b>
+                      <span class="nav-text">User</span> <b class="caret"></b>
                     </a>
                     <ul  class="collapse"  id="documentation"
                       data-parent="#sidebar-menu">
                       <div class="sub-menu">
 
                               <li >
-                                <a href="promo">Promo</a>
+                                <a href="{{url('admin/user')}}">User</a>
                               </li>
                               
                         
@@ -200,7 +201,7 @@
                             <div class="sub-menu">
                               
                               <li >
-                                <a href="sign-in">Sign In</a>
+                                <a href="{{url('login')}}">Login</a>
                               </li>
                               
                               <li >
@@ -336,14 +337,14 @@
                   <li class="dropdown user-menu">
                     <button href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                       <img src="assets/img/user/user.png" class="user-image" alt="User Image" />
-                      <span class="d-none d-lg-inline-block">Abdus Salam</span>
+                      <span class="d-none d-lg-inline-block">@if(Auth::check()) {{request()->user()->nama}} @else Silahkan Login @endif</span>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-right">
                       <!-- User image -->
                       <li class="dropdown-header">
                         <img src="assets/img/user/user.png" class="img-circle" alt="User Image" />
                         <div class="d-inline-block">
-                          Abdus Salam <small class="pt-1">abdus@gmail.com</small>
+                          @if(Auth::check()) {{request()->user()->username}}  @else Silahkan Login @endif<small class="pt-1">@if(Auth::check()) {{request()->user()->email}}  @else Silahkan Login @endif</small>
                         </div>
                       </li>
 
@@ -362,7 +363,7 @@
                       </li>
 
                       <li class="dropdown-footer">
-                        <a href="signin"> <i class="mdi mdi-logout"></i> Log Out </a>
+                        <a href="{{url('logout')}}"> <i class="mdi mdi-logout"></i> Log Out </a>
                       </li>
                     </ul>
                   </li>
@@ -372,6 +373,13 @@
 
 
           </header>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                @include('layouts.util.notif')
+              </div>
+            </div>
+          </div>
           @yield('content')
           <footer class="footer mt-auto">
             <div class="copyright bg-white">
